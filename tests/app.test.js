@@ -5,3 +5,8 @@ test("Testing getting 'Hello World!' message", async () => {
   const response = await request(app).get("/hello-world").expect(200);
   expect(response.body.msg).toBe("Hello World!");
 });
+
+test("Testing uploading wall image", async () => {
+  const response = await request(app).post("/wall-image").expect(500);
+  expect(response.body.error).toBe("Not implemented");
+});
