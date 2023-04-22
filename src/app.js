@@ -6,8 +6,4 @@ app.get("/hello-world", (req, res) => {
   res.send({ msg: "Hello World!" });
 });
 
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
-});
-
 module.exports = app;
