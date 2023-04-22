@@ -1,0 +1,22 @@
+{
+  "name": "routsetterwebsite",
+  "version": "1.0.0",
+  "description": "Website for uploading new projects for your climbing gym. Become the Routsetter!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashie-github/RoutsetterWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashie-github/RoutsetterWebsite/issues"
+  },
+  "homepage": "https://github.com/Ashie-github/RoutsetterWebsite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
