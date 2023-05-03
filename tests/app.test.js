@@ -7,6 +7,6 @@ test("Testing getting 'Hello World!' message", async () => {
 });
 
 test("Testing uploading wall image", async () => {
-  const response = await request(app).post("/wall-image").expect(500);
-  expect(response.body.error).toBe("Not implemented");
+  const response = await request(app).post("/wall-image").expect(200);
+  expect(response.body.msg).toBe("File uploaded to 'wall-images'");
 });
