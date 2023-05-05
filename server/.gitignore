@@ -1,2 +1,5 @@
 # JS packages
 node_modules/
+
+# Ignoring temporary images
+wall-images/
