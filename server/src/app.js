@@ -21,7 +21,7 @@ app.get("/hello-world", (req, res) => {
 
 app.post(
   "/wall-image",
-  upload.single("wall-image"),
+  upload.single("image"),
   async (req, res) => {
     res.send({ msg: "File uploaded to 'wall-images'" });
   },
